@@ -8,11 +8,11 @@ public class Murderer {
     }
 
     void gulity() {
-        System.out.println("I am gulity!");
+        System.out.println("Hi," + murdererName + "is not guilty!");
     }
 
     void status() {
-        System.out.println("I am the murderer");
+        System.out.println(murdererName + "is the murderer!");
     }
 }
 
