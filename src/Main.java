@@ -74,7 +74,7 @@ arr[8] = "Harry";
                 adil.dead = true;
                 adil.status();
                 minghao.killCounter = 1;
-                System.out.println("Adil died...");
+                System.out.println(adil.name + "died...");
                 }
 
 
