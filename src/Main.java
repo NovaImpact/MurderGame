@@ -27,6 +27,7 @@ arr[8] = "Harry";
         System.out.println("You are the murderer.");
 
         System.out.println("Welcome!You are the murderer.");
+        System.out.println("Welcome! You are the murderer.");
 
         Civilian adil = new Civilian();
         adil.name = "Adil";
@@ -74,9 +75,23 @@ arr[8] = "Harry";
                 adil.dead = true;
                 adil.status();
                 minghao.killCounter = 1;
+                System.out.println(adil.name + " died...");
                 System.out.println(adil.name + "died...");
                 }
 
+            if (sam.name.equals(typedName1)) {
+                sam.dead = true;
+                sam.status();
+                minghao.killCounter = 1;
+                System.out.println(sam.name + " died...");
+            }
+
+            if (tai.name.equals(typedName1)) {
+                tai.dead = true;
+                tai.status();
+                minghao.killCounter = 1;
+                System.out.println(tai.name + " died...");
+            }
 
 
             }
