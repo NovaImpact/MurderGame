@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Welcome!You are the murderer.");
+        System.out.println("Welcome! You are the murderer.");
 
         Civilian adil = new Civilian();
         adil.name = "Adil";
@@ -48,9 +48,22 @@ public class Main {
                 adil.dead = true;
                 adil.status();
                 minghao.killCounter = 1;
-                System.out.println("Adil died...");
+                System.out.println(adil.name + " died...");
                 }
 
+            if (sam.name.equals(typedName1)) {
+                sam.dead = true;
+                sam.status();
+                minghao.killCounter = 1;
+                System.out.println(sam.name + " died...");
+            }
+
+            if (tai.name.equals(typedName1)) {
+                tai.dead = true;
+                tai.status();
+                minghao.killCounter = 1;
+                System.out.println(tai.name + " died...");
+            }
 
 
             }
