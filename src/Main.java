@@ -9,7 +9,6 @@ public class Main {
 
        // Random random = new random();
 
-
 /*String[] arr;
 arr = new String[9];
 arr[0] = "Bob";
