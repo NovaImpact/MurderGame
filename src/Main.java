@@ -22,7 +22,8 @@ arr[6] = "Shoeb";
 arr[7] = "Alex";
 arr[8] = "Harry";
 */
-        ArrayList <AllCivilian> name = new ArrayList<AllCivilian>();
+        ArrayList <AllCivilian> AllCivilians = new ArrayList<AllCivilian>();
+
 
 
         System.out.println("Welcome!");
@@ -37,6 +38,7 @@ arr[8] = "Harry";
         adil.status();
         adil.guilty();
         adil.interactionCivilian();
+        AllCivilians.add(adil);
 
         Civilian sam = new Civilian();
         sam.name = "Sam";
@@ -45,6 +47,7 @@ arr[8] = "Harry";
         sam.status();
         sam.guilty();
         sam.interactionCivilian();
+        AllCivilians.add(sam);
 
         Civilian tai = new Civilian();
         tai.name = "Tai";
@@ -53,6 +56,7 @@ arr[8] = "Harry";
         tai.status();
         tai.guilty();
         tai.interactionCivilian();
+        AllCivilians.add(tai);
 
         Murderer minghao = new Murderer();
         minghao.murdererName = "Minghao;";
