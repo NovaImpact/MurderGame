@@ -20,6 +20,22 @@ arr[7] = "Alex";
 arr[8] = "Harry";
 */
         ArrayList <AllPeople> allPeople = new ArrayList<AllPeople>();
+        for (int i = 0; i < 10; i = i + 1) {
+            Civilian newCivilian = new Civilian();
+            newCivilian.dead = false;
+            newCivilian.userDialogue = "Hello!";
+            allPeople.add(newCivilian);
+        }
+        allPeople.get(0).name = "Bob";
+        allPeople.get(1).name = "Sam";
+        allPeople.get(2).name = "Joe";
+        allPeople.get(3).name = "Tai";
+        allPeople.get(4).name = "MrH";
+        allPeople.get(5).name = "George";
+        allPeople.get(6).name = "Jotaro";
+        allPeople.get(7).name = "Shoeb";
+        allPeople.get(8).name = "Minghao";
+        allPeople.get(9).name = "adil";
 
 
 
@@ -28,6 +44,7 @@ arr[8] = "Harry";
         System.out.println("Welcome!You are the murderer.");
         System.out.println("Welcome! You are the murderer.");
 
+/*
         Civilian adil = new Civilian();
         adil.name = "Adil";
         adil.dead = false;
@@ -54,7 +71,7 @@ arr[8] = "Harry";
         tai.guilty();
         tai.interactionCivilian();
         allPeople.add(tai);
-
+*/
         Murderer minghao = new Murderer();
         minghao.name = "Minghao;";
         minghao.killCounter = 0;
@@ -72,7 +89,7 @@ arr[8] = "Harry";
             System.out.print(typedName1 + " Died");
             String typedName2 = myTextScanner.nextLine();
 
-
+/*
             if (adil.name.equals(typedName1)) {
                 adil.dead = true;
                 adil.status();
@@ -94,7 +111,7 @@ arr[8] = "Harry";
                 minghao.killCounter = 1;
                 System.out.println(tai.name + " died...");
             }
-
+*/
 
             }
 
