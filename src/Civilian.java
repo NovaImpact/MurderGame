@@ -1,9 +1,9 @@
-public class Civilian {
-
+public class Civilian extends AllCivilian{
+/*
     String name;
     boolean dead;
     String userDialogue;
-
+*/
     void guilty() {
         System.out.println( name + " is not guilty!");
     }

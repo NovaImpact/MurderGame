@@ -1,6 +1,7 @@
+import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
-
+import java.util.ArrayList;
 
 
 public class Main {
@@ -21,11 +22,11 @@ arr[6] = "Shoeb";
 arr[7] = "Alex";
 arr[8] = "Harry";
 */
+        ArrayList <AllCivilian> name = new ArrayList<AllCivilian>();
 
 
         System.out.println("Welcome!");
         System.out.println("You are the murderer.");
-
         System.out.println("Welcome!You are the murderer.");
         System.out.println("Welcome! You are the murderer.");
 
