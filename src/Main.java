@@ -1,5 +1,3 @@
-import java.util.List;
-import java.util.Random;
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -21,7 +19,7 @@ arr[6] = "Shoeb";
 arr[7] = "Alex";
 arr[8] = "Harry";
 */
-        ArrayList <AllCivilian> AllCivilians = new ArrayList<AllCivilian>();
+        ArrayList <AllPeople> allPeople = new ArrayList<AllPeople>();
 
 
 
@@ -37,7 +35,7 @@ arr[8] = "Harry";
         adil.status();
         adil.guilty();
         adil.interactionCivilian();
-        AllCivilians.add(adil);
+        allPeople.add(adil);
 
         Civilian sam = new Civilian();
         sam.name = "Sam";
@@ -46,7 +44,7 @@ arr[8] = "Harry";
         sam.status();
         sam.guilty();
         sam.interactionCivilian();
-        AllCivilians.add(sam);
+        allPeople.add(sam);
 
         Civilian tai = new Civilian();
         tai.name = "Tai";
@@ -55,10 +53,10 @@ arr[8] = "Harry";
         tai.status();
         tai.guilty();
         tai.interactionCivilian();
-        AllCivilians.add(tai);
+        allPeople.add(tai);
 
         Murderer minghao = new Murderer();
-        minghao.murdererName = "Minghao;";
+        minghao.name = "Minghao;";
         minghao.killCounter = 0;
 
         minghao.killCivilan();

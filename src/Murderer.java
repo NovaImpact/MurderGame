@@ -1,18 +1,18 @@
-public class Murderer {
-    String murdererName;
+public class Murderer extends AllPeople{
+    //String murdererName;
     int killCounter;
     String targetName;
 
     void killCivilan() {
-        System.out.println("Select Target " + murdererName);
+        System.out.println("Select Target " + name);
     }
 
     void gulity() {
-        System.out.println("Hi," + murdererName + "is not guilty!");
+        System.out.println("Hi," + name + "is not guilty!");
     }
 
     void status() {
-        System.out.println(murdererName + "is the murderer!");
+        System.out.println(name + "is the murderer!");
     }
 }
 

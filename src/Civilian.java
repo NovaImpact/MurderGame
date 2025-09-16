@@ -1,4 +1,4 @@
-public class Civilian extends AllCivilian{
+public class Civilian extends AllPeople {
 /*
     String name;
     boolean dead;
