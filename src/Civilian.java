@@ -15,5 +15,10 @@ public class Civilian extends AllPeople {
     void interactionCivilian() {
         System.out.println(userDialogue);
     }
+    public String toString(){
+        String civilianString = "Civilan";
+        civilianString += name;
+        return civilianString;
+    }
 
 }

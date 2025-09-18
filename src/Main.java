@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Collections;
 
 
 public class Main {
@@ -37,12 +38,11 @@ arr[8] = "Harry";
         allPeople.get(8).name = "Minghao";
         allPeople.get(9).name = "adil";
 
-
+        Collections.shuffle(allPeople);
 
         System.out.println("Welcome!");
-        System.out.println("You are the murderer.");
-        System.out.println("Welcome!You are the murderer.");
-        System.out.println("Welcome! You are the murderer.");
+        System.out.println(allPeople + "is the murderer.");
+
 
 /*
         Civilian adil = new Civilian();
