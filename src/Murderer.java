@@ -14,5 +14,11 @@ public class Murderer extends AllPeople{
     void status() {
         System.out.println(name + "is the murderer!");
     }
+
+    public String toString(){
+        String murderString = "Minghao";
+        murderString += name;
+        return murderString;
+    }
 }
 
