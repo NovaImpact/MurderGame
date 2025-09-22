@@ -23,20 +23,22 @@ arr[8] = "Harry";
         ArrayList <AllPeople> allPeople = new ArrayList<AllPeople>();
         for (int i = 0; i < 10; i = i + 1) {
             Civilian newCivilian = new Civilian();
-            newCivilian.dead = false;
-            newCivilian.userDialogue = "Hello!";
+            newCivilian.setDead(false);
+            newCivilian.setUserDialogue("Hello!");
             allPeople.add(newCivilian);
         }
-        allPeople.get(0).name = "Bob";
-        allPeople.get(1).name = "Sam";
-        allPeople.get(2).name = "Joe";
-        allPeople.get(3).name = "Tai";
-        allPeople.get(4).name = "MrH";
-        allPeople.get(5).name = "George";
-        allPeople.get(6).name = "Jotaro";
-        allPeople.get(7).name = "Shoeb";
-        allPeople.get(8).name = "Minghao";
-        allPeople.get(9).name = "adil";
+        allPeople.get(0).setName("Bob");
+        allPeople.get(1).setName("Sam");
+        allPeople.get(2).setName("Joe");
+        allPeople.get(3).setName("Tai");
+        allPeople.get(4).setName("MrH");
+        allPeople.get(5).setName("George");
+        allPeople.get(6).setName("Jotaro");
+        allPeople.get(7).setName("Shoeb");
+        allPeople.get(8).setName("Minghao");
+        allPeople.get(9).setName("adil");
+
+        System.out.println(allPeople);
 
         Collections.shuffle(allPeople);
 
@@ -73,8 +75,8 @@ arr[8] = "Harry";
         allPeople.add(tai);
 */
         Murderer minghao = new Murderer();
-        minghao.name = "Minghao;";
-        minghao.killCounter = 0;
+        minghao.getName();
+        minghao.getKillCounter();
 
         minghao.killCivilan();
         minghao.status();
