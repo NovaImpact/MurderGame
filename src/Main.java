@@ -72,9 +72,8 @@ arr[8] = "Harry";
         tai.interactionCivilian();
         allPeople.add(tai);
 */
-        Murderer minghao = new Murderer();
-        minghao.getName();
-        minghao.getKillCounter();
+        Murderer minghao = new Murderer("Hello!", false, "not yet", 5,"not yet");
+
 
         minghao.killCivilan();
         minghao.status();
