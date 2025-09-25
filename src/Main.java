@@ -22,9 +22,7 @@ arr[8] = "Harry";
 */
         ArrayList <AllPeople> allPeople = new ArrayList<AllPeople>();
         for (int i = 0; i < 10; i = i + 1) {
-            Civilian newCivilian = new Civilian();
-            newCivilian.setDead(false);
-            newCivilian.setUserDialogue("Hello!");
+            Civilian newCivilian = new Civilian("Hello!", false, "notYet");
             allPeople.add(newCivilian);
         }
         allPeople.get(0).setName("Bob");

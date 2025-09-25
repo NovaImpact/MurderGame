@@ -5,8 +5,8 @@ class Civilian extends AllPeople {
     String userDialogue;
 */
 
-    private Civilian(boolean dead) {
-        super(dead);
+    public Civilian(String userDialogue, boolean dead, String name) {
+        super(userDialogue, dead, name);
     }
 
     void guilty() {
@@ -15,11 +15,11 @@ class Civilian extends AllPeople {
     }
 
     void status() {
-        System.out.println(" Civilian: " + getName() + " Civilian Dead: " + dead);
+        System.out.println(" Civilian: " + getName() + " Civilian Dead: " + isDead());
     }
 
     void interactionCivilian() {
-        System.out.println(getUserDialogue();
+        System.out.println(getUserDialogue());
     }
 
     public String toString(){
